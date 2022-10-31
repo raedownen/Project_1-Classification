@@ -3,17 +3,9 @@ project description with goals
 Churn Category: A high-level category for the customer’s reason for churning: Attitude, Competitor, Dissatisfaction, Other, Price. When they leave the company, all customers are asked about their reasons for leaving. Directly related to Churn Reason.
 
 
-initial hypotheses and/or questions you have of the data, ideas
 
-data dictionary
-
-project planning (lay out your process through the data science pipeline)
 PLANNING
-Goal:
 
-Business objective: reduce churn by 5%
-Project objective: predict with at least 70% accuracy whether a customer will churn
-Deliverable: deliver a model with the estimated accuracy score.
 Project Description:  Using data acquired from CodeUp’s database, Telco Churn.Working through the data science pipeline, I will try find if the various elements have anything to do with whether a customer stop being a customer.
 
 Project Goal: Navigate the data science pipeline.  Ask questions to see if whether a customer churns. Using the data to answer the questions.
