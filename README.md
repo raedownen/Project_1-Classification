@@ -1,5 +1,7 @@
 # Project_1-Classification
 project description with goals
+Churn Category: A high-level category for the customer’s reason for churning: Attitude, Competitor, Dissatisfaction, Other, Price. When they leave the company, all customers are asked about their reasons for leaving. Directly related to Churn Reason.
+
 
 initial hypotheses and/or questions you have of the data, ideas
 
