@@ -1,4 +1,5 @@
 ################################################### Acquire #########################################################
+# importing of all needed libraries and modules.  
 import pandas as pd
 import numpy as np
 import os
@@ -81,8 +82,7 @@ def prep_telco_data(df):
     df['dependents_encoded'] = df.dependents.map({'Yes': 1, 'No': 0})
     df['phone_service_encoded'] = df.phone_service.map({'Yes': 1, 'No': 0})
     df['paperless_billing_encoded'] = df.paperless_billing.map({'Yes': 1, 'No': 0})
-    df['churn_encoded'] = df.churn.map({'Yes': 1, 'No': 0})
-    
+    df['churn_encoded'] = df.churn.map({'Yes': 1, 'No':0})
     # Get dummies for non-binary categorical variables
     dummy1_df = pd.get_dummies(df[['multiple_lines', \
                               'online_security', \
