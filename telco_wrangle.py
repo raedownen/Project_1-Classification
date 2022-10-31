@@ -58,10 +58,10 @@ def split_telco_data(df):
     '''
     train_validate, test = train_test_split(df, test_size=.2, 
                                         random_state=123, 
-                                        stratify=df.churn)
+                                        stratify=df.churn_encoded)
     train, validate = train_test_split(train_validate, test_size=.3, 
                                    random_state=123, 
-                                   stratify=train_validate.churn)
+                                   stratify=train_validate.churn_encoded)
     return train, validate, test
 ################################################### Prepare #########################################################
 
